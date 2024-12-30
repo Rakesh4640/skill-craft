@@ -1,0 +1,88 @@
+/* Reset and Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+  }
+  
+  .navbar.scrolled {
+    background: #555;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    margin: 0 15px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-menu a:hover {
+    color: #f39c12;
+  }
+  
+  .logo {
+    float: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-right: auto;
+  }
+  
+  .section {
+    padding: 100px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .home {
+    background: #f4f4f4;
+  }
+  
+  .about {
+    background: #0e29be;
+  }
+  
+  .services {
+    background: #461b1b;
+  }
+  
+  .contact {
+    background: #13a308;
+  }
+  
